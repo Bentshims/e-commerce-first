@@ -5,37 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="http://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="px-4 bg-black text-white ">
          <div>
             <p>
                 sign up and get 20% off to your first order
             </p>
-            <div>
+            <div class="underline">
                 <a href="#">Sign Up Now</a>
             </div>
          </div>
 
         </nav>
+        <div>
+            
+            <p class="text-3xl font-bold">
+                shop.co
+            </p>
+            <div class="link">
+                <div>
+                    <a href="#">shop</a>
+                </div>
+                <div>
+                    <a href="#">on sale</a>
+                </div>
+                <div>
+                    <a href="#">new arrivals</a>
+                </div>
+                <div>
+                    <a href="#">brands</a>
+                </div>
+            </div>
+        </div>
     </header>
-    <main>
-        <section>
-            <div>
-                <h1>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing.
+    <main class="">
+        <section class="bg-[#F2F0F1]">
+          <div class=" px-4 pt-8 space-y-8">
+            <div class="space-y-4">
+                <h1 class="capitalize text-5xl font-bold">
+                    fIND CLOTHES THAT MACTHES YOUR STYLE
                 </h1>
-                <p>
+                <p class="text-gray-500">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt quo aut odio est dolores, suscipit at error nemo, harum modi eum ea quia recusandae delectus. Possimus doloremque quam assumenda cum.
                 </p>
             </div>
-            <button class="w-full rounded-full px-2 py-3">
+            <button class="bg-black text-white font-semibold w-full rounded-full px-2 py-3 transition duration-500 ease hover:bg-white hover:text-black">
                 shop now
             </button>
-            <div>
+            <div class="flex flex-wrap justify-center gap-6">
                 <div>
-                    <p>
+                    <p class="font-semibold text-2xl">
                         200+
                     </p>
                     <p>
@@ -46,22 +69,113 @@
 
                 </div>
                 <div>
-                    <p>2,000+</p> 
+                    <p class="font-semibold text-2xl">2,000+</p> 
                     <p>
                         hihg-quality products
                     </p>
                 </div>
                 <div>
-                    <p>30,000+</p>
+                    <p class="font-semibold text-2xl">30,000+</p>
                     <p>
                         happy customers
                     </p>
                 </div>
             </div>
-            <img src="Rectangle 2.png" alt="">
+          </div>
+           <div class="flex justify-center">
+                <img src="Rectangle 2.png" alt="">
+           </div>
         </section>
-        <section>
-            <img src="Group(17).svg" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt="">
+        <section class="bg-black flex justify-center flex-wrap px-6 py-6 gap-6">
+            <img src="Group(17).svg" alt="">
+            <img src="zara-logo-1.svg" alt="">
+            <img src="gucci-logo-1.svg" alt="">
+            <img src="prada-logo-1.svg" alt="">
+            <img src="calvin.svg" alt="">
+        </section>
+        <section class="new arivals py-8 px-1">
+            <div class="space-y-4">
+                <h2 class="text-center text-4xl font-bold">
+                    NEW ARRIVALS
+                </h2>
+                <div  class="grid grid-cols-2 grid-rows-1 gap-6 px-4">
+                    <div>
+                        <img src="t-shirt1.png" alt="" class="rounded-lg w-auto h-56">
+                        <div class="space-y-1 mt-2">
+                            <p class="capitalize font-bold">
+                                T-shirt with Tape Details 
+                            </p>
+                            <div class="flex items-center gap-2">
+                              <div class="text-yellow-500 flex items-center">
+                                    <div>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <div>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <div>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <div>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    
+                                    <div>
+                                        <i class="bi bi-star-half"></i>
+                                    </div>
+                              </div>
+                              <p>
+                                    4.5/5
+                              </p>
+                            </div>
+                            <p class="font-bold">
+                                $120
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="jeans1.png" alt="" class="rounded-lg w-auto h-56">
+                        <div  class="space-y-1 mt-2">
+                            <p class="capitalize font-bold">
+                                Skinny Fit Jeans
+                            </p>
+                            <div class="flex items-center gap-2">
+                              <div class="text-yellow-500 flex items-center">
+                                    <div>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <div>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <div>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <div>
+                                        <i class="bi bi-star-half"></i>
+                                    </div>
+                              </div>
+                              <p>
+                                    3.5/5
+                              </p>
+                            </div>
+                            <div class="flex gap-4">
+                                <p class="font-bold">
+                                    $240
+                                </p>
+                                <p class="line-through">
+                                    $260
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="px-4">
+                    <a href="#" class="capitalize border border-gray-300 rounded-full text-center font-semibold inline-block w-full py-3 transition duration-500 ease hover:bg-black hover:text-white">
+                        view all
+                    </a>
+               </div>
+            </div>
         </section>
 
     </main>
